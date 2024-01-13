@@ -7,7 +7,7 @@
   margin:0;
 }
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 0; }
-fieldset { padding: .5em; }
+fieldset { padding: .3em; }
 select option{ padding:0 5px; }
 
 .access{ display:none; } /* For accessibility related elements */
@@ -60,6 +60,11 @@ strong {
   font-weight: bold;
 }
 
+h1 {
+  font-size: small; 
+}
+
+
 a {
   color: deepskyblue;
   text-decoration: none;
@@ -92,7 +97,7 @@ hr:before {
   .container {
     width: 90%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 
